@@ -22,6 +22,11 @@
         '泡面',
         '0090',
         '轻食便当',
+        '油泼面',
+        'biangbiang面',
+        '一楼炸鸡',
+        '老乡厨炒鸡',
+        '一楼包子',
     ]
         if (!run) {
             heading.html(heading.html().replace("吃这个！", "吃什么？"));
