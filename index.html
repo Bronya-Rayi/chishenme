@@ -1,19 +1,28 @@
 <!DOCTYPE HTML>
-<html xmlns:wb="http://open.weibo.com/wb">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>中午吃什么</title>
-    <meta name="keywords" content="中午吃什么" />
-    <meta name="description" content="中午吃什么" />
+    <title>这顿吃什么</title>
+    <meta name="keywords" content="这顿吃什么" />
+    <meta name="description" content="这顿吃什么" />
     <link rel="stylesheet" href="default.css">
-    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?59192b6186d32dfcc532b3555c2b37a0";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+        
 </head>
 
 <body>
 
     <div id="wrapper">
         <h1>
-            中午吃什么，吃什么？
+            这顿吃什么，吃什么？
             <br>
             <br>
             <b style="color:#FF9733" id="what"></b>
@@ -22,11 +31,7 @@
         <input type="button" value="开始" id="stop" style="display: none;">
     </div>
 
-	<div id="weibo">
-		<wb:follow-button uid="1650984392" type="gray_1" width="67" height="24" ></wb:follow-button>
-	</div>
-
-    <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.6.4.min.js"></script>
     <script src="random.js"></script>
     <script src="three_punch_combo.js"></script>
 
